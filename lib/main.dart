@@ -70,14 +70,7 @@ class _State extends State<LoginPage> {
                     ),
                   ),
                 ),
-                // TextButton(
-                //   onPressed: (){
-                //     //forgot password screen
-                //   },
-                //   child: const Text('Forgot Password'),
-                // ),
                 Container(
-                   // height: 50,
                     padding: const  EdgeInsets.fromLTRB(10, 0, 10, 0),
                     child: ElevatedButton(
                       child: const Text('Signin'),
@@ -88,26 +81,9 @@ class _State extends State<LoginPage> {
                     )),
                      TextButton(
                   onPressed: (){
-                    //forgot password screen
                   },
                   child: const Text('Click me for Signup'),
                 ),
-                // Container(
-                //     child: Row(
-                //       children: <Widget>[
-                //        const  Text('Does not have account?'),
-                //         ElevatedButton(
-                //           child: const Text(
-                //             'Sign in',
-                //             style: TextStyle(fontSize: 20),
-                //           ),
-                //           onPressed: () {
-                //             //signup screen
-                //           },
-                //         )
-                //       ],
-                //       mainAxisAlignment: MainAxisAlignment.center,
-                //     ))
               ],
             )));
   }
